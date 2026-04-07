@@ -71,6 +71,7 @@ A lightweight, compliant AI assistant for Banking, Financial Services and Insura
 
 ## 📁 Project Structure
 
+```
 BFSI-Call-Center-AI-Assistant/
 │
 ├── data/
@@ -114,6 +115,8 @@ BFSI-Call-Center-AI-Assistant/
 │
 ├── requirements.txt
 └── README.md
+```
+
 
 ## Documentation
 
