@@ -1,5 +1,5 @@
 # BFSI Call Center AI Assistant
-A lightweight, compliant AI assistant for Banking, Financial Services, and Insurance (BFSI) call center queries. It provides fast, accurate, and standardized responses using a three-tier pipeline: **dataset similarity** → **fine-tuned small language model** → **RAG** (for complex financial/policy queries).
+A lightweight, compliant AI assistant for Banking, Financial Services and Insurance (BFSI) call center queries. It provides fast, accurate and standardized responses using a three-tier pipeline: **dataset similarity** → **fine-tuned small language model** → **RAG** (for complex financial/policy queries).
 
 ## Features
 
@@ -91,4 +91,3 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for architecture, data flow, ti
 =======
 # BFSI-Call-Center-AI-Assistant
 BFSI Call Center AI Assistant is a lightweight, compliant system that delivers fast and accurate responses using a 3-tier pipeline: dataset similarity, fine-tuned SLM and RAG for complex queries. It ensures reliability with guardrails like PII protection, no hallucination and out-of-domain rejection.
->>>>>>> 0c3da0712b12a2565ba2a9f8b531e0cdcd21ccdf
