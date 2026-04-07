@@ -71,13 +71,49 @@ A lightweight, compliant AI assistant for Banking, Financial Services and Insura
 
 ## Project structure
 
-- `data/` – Alpaca dataset (`alpaca_bfsi.json`), dataset index, RAG Chroma DB.
-- `models/` – Base SLM and fine-tuned adapters (versioned).
-- `src/` – Core package: `similarity`, `slm`, `rag`, `orchestrator`, `guardrails`, `config`, `logging_config`.
-- `scripts/` – `build_dataset.py`, `validate_dataset.py`, `build_index.py`, `ingest_rag.py`, `finetune.py`.
-- `knowledge/` – Markdown documents for RAG (rates, penalties, product overview).
-- `demo/` – CLI, Streamlit app, FastAPI.
-- `docs/` – Technical architecture and runbook.
+BFSI Call Center AI Assistant/
+│
+├── data/
+│   ├── alpaca_bfsi.json
+│   ├── dataset_index/
+│   └── chroma_db/
+│
+├── models/
+│   ├── base_slm/
+│   └── finetuned_adapters/
+│
+├── src/
+│   ├── similarity/
+│   ├── slm/
+│   ├── rag/
+│   ├── orchestrator/
+│   ├── guardrails/
+│   ├── config/
+│   └── logging_config/
+│
+├── scripts/
+│   ├── build_dataset.py
+│   ├── validate_dataset.py
+│   ├── build_index.py
+│   ├── ingest_rag.py
+│   └── finetune.py
+│
+├── knowledge/
+│   ├── rates.md
+│   ├── penalties.md
+│   └── product_overview.md
+│
+├── demo/
+│   ├── cli_app.py
+│   ├── streamlit_app.py
+│   └── fastapi_app.py
+│
+├── docs/
+│   ├── architecture.md
+│   └── runbook.md
+│
+├── requirements.txt
+└── README.md
 
 ## Documentation
 
@@ -89,5 +125,3 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for architecture, data flow, ti
 - Complex financial/policy queries use RAG so answers are grounded in knowledge documents.
 - No guessing of rates or policy numbers; no exposure of sensitive customer data; out-of-domain queries are rejected.
 =======
-# BFSI-Call-Center-AI-Assistant
-BFSI Call Center AI Assistant is a lightweight, compliant system that delivers fast and accurate responses using a 3-tier pipeline: dataset similarity, fine-tuned SLM and RAG for complex queries. It ensures reliability with guardrails like PII protection, no hallucination and out-of-domain rejection.
