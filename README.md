@@ -90,5 +90,5 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for architecture, data flow, ti
 - Complex financial/policy queries use RAG so answers are grounded in knowledge documents.
 - No guessing of rates or policy numbers; no exposure of sensitive customer data; out-of-domain queries are rejected.
 =======
-# BFSI-Call-Center-AI-Assistant
+
 BFSI Call Center AI Assistant is a lightweight, compliant system that delivers fast and accurate responses using a 3-tier pipeline: dataset similarity, fine-tuned SLM and RAG for complex queries. It ensures reliability with guardrails like PII protection, no hallucination and out-of-domain rejection.
