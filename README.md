@@ -69,9 +69,9 @@ A lightweight, compliant AI assistant for Banking, Financial Services and Insura
   ```
   Then `POST /query` with `{"query": "How is EMI calculated?"}`.
 
-## Project structure
+## 📁 Project Structure
 
-BFSI Call Center AI Assistant/
+BFSI-Call-Center-AI-Assistant/
 │
 ├── data/
 │   ├── alpaca_bfsi.json
